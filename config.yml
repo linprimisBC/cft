@@ -1,0 +1,10 @@
+tunnel: 74fcdf73-6af3-4416-90a1-21524ca4d1a7
+credentials-file: /home/work/.cloudflared/74fcdf73-6af3-4416-90a1-21524ca4d1a7.json
+protocol: quic
+originRequest:
+  connectTimeout: 30s
+  noTLSVerify: false
+ingress:
+  - hostname: work.linprimis.top
+    service: http://127.0.0.1:80
+  - service: http_status:404

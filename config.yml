@@ -6,5 +6,5 @@ originRequest:
   noTLSVerify: true
 ingress:
   - hostname: work.linprimis.top
-    service: http://127.0.0.1:8888/
+    service: http://127.0.0.1:8888
   - service: http_status:404

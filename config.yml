@@ -1,6 +1,6 @@
 tunnel: 74fcdf73-6af3-4416-90a1-21524ca4d1a7
 credentials-file: /root/.cloudflared/74fcdf73-6af3-4416-90a1-21524ca4d1a7.json
-protocol: auto
+protocol: http2
 originRequest:
   connectTimeout: 30s
   noTLSVerify: false

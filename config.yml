@@ -3,8 +3,8 @@ credentials-file: /root/.cloudflared/74fcdf73-6af3-4416-90a1-21524ca4d1a7.json
 protocol: http2
 originRequest:
   connectTimeout: 30s
-  noTLSVerify: false
+  noTLSVerify: true
 ingress:
   - hostname: work.linprimis.top
-    service: http://127.0.0.1:8888/gui/
+    service: http://127.0.0.1:8888/
   - service: http_status:404
